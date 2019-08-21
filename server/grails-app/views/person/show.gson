@@ -1,0 +1,7 @@
+import fullnamequestion.Person
+
+model {
+    Person person
+}
+
+json tmpl.person(person)

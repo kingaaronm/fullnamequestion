@@ -1,0 +1,11 @@
+import fullnamequestion.Person
+
+model {
+    Person person
+}
+
+json {
+    lastName person.lastName
+    firstName person.firstName
+    fullName person.fullName()
+}
